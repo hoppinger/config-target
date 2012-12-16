@@ -1,0 +1,21 @@
+{
+    "name": "hoppinger/config-target",
+    "description": "Target classes to use with Hoppinger's cnf/target configuration paradigm",
+    "homepage": "http://www.hoppinger.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hoppinger B.V.",
+            "email": "info@hoppinger.com",
+            "homepage": "http://www.hoppinger.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Hop\\Config\\Target": "src"
+        }
+    },   
+    "require": {
+        "php": ">=5.3.3"
+    }
+}

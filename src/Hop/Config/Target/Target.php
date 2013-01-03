@@ -68,7 +68,6 @@ class Target implements TargetInterface
     /**
      * {@inheritDoc}
      */
-
     public function getTarget()
     {
         return $this->target;

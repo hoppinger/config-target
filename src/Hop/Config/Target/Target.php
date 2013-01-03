@@ -89,7 +89,7 @@ class Target implements TargetInterface
     {
         return $this->getTargetsDir().
             DIRECTORY_SEPARATOR.
-            str_replace('\\', DIRECTORY_SEPARATOR, $this->target)
+            str_replace('/', DIRECTORY_SEPARATOR, $this->target)
             ;
     }
 

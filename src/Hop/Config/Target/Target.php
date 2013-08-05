@@ -80,6 +80,7 @@ class Target implements TargetInterface
     {
         return $this->mode;
     }
+    
 
     /**
      * {@inheritDoc}
@@ -113,4 +114,10 @@ class Target implements TargetInterface
             'targets'
             ;
     }
+    
+    public function __toString()
+    {
+        return $this->mode;
+    }
+    
 }

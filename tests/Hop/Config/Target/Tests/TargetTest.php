@@ -44,6 +44,12 @@ class TargetTest extends \PHPUnit_Framework_TestCase
         $target = new Target(__DIR__, 'dev/foo');
         $this->assertEquals('dev', $target->getMode());
     }
+    
+    public function testToString()
+    {
+        $target = new Target(__DIR__, 'dev/foo');
+        $this->assertEquals((string)$target, $target->getMode());
+    }
 
     /**
      * @expectedException InvalidArgumentException
